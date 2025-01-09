@@ -22,7 +22,7 @@ FROM pizza_sales_csv;
 # B. DAILY TREND FOR TOTAL ORDERS
 SELECT dayofweek(order_date) As Day1, dayname(order_date) As Order_Day, count(distinct order_id) As Total_Orders
 from pizza_sales_csv
-group by Day1, Order_Day;            # check table
+group by Day1, Order_Day;            
 
 # C. Monthly Trend for Orders
 SELECT monthname(order_date) as Month_Name, COUNT(DISTINCT order_id) as Total_Orders
