@@ -1,4 +1,4 @@
-# Pizza-Sales-Project 
+# Pizza-Sales-Project Using SQL and Power BI
 The objective of this project is to derive meaningful insights from the sales data of a pizza selling joint by exploring and analyzing the data and presenting the data with the help of graphs and charts. The various KPIs and requirements of the project are provided by stakeholders.
 
 # Dataset
